@@ -38,3 +38,39 @@ git fetch myoldwc
 맥에서 클론 받으니, 폴더 이름의 자소가 분리 표현되어 모든 파일이 untracked 라고 보임.
 적어도 이 llmbook 리포는 맥에서는 건드리지 않는게 좋겠음.
 
+
+### neowizard
+
+마찬가지로 github web 에서 fork
+
+문제가 하나 있음. 이 neowizard 리포에는 몇 개의 폴더들이 있는데, 일단 당장은 TensorFlow2 폴더만 관심이 있음.
+
+```
+276K	DataAnalysis
+ 13M	DeepLearningProject
+271M	MachineLearning
+ 23M	PyTorch
+ 25M	TensorFlow2
+```
+
+그래서 TensorFlow2 폴더만 sparse 로 가져옴..
+
+```
+git clone --depth=1 --filter=blob:none --sparse git@github.com:cafrii/neowizard.git neo-tensorflow2
+
+cd neo-tensorflow2
+
+git sparse-checkout set TensorFlow2
+
+git pull origin master
+```
+
+이 폴더는 좀 특수하게 체크아웃을 한 관계로, 굳이 submodule 로 등록을 해야 할 필요가 있을까 싶긴 한데... 일단 등록은 함.
+
+```
+cd .. # 상위 탑 프로젝트
+
+git submodule add git@github.com:cafrii/neowizard.git neo-tensorflow2
+
+# git submodule absorbgitdirs # 굳이 하진 않음.
+```

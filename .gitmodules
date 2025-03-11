@@ -1,3 +1,6 @@
 [submodule "llm-onlybooks"]
 	path = llm-onlybooks
 	url = git@github.com:cafrii/llm-onlybooks.git
+[submodule "neo-tensorflow2"]
+	path = neo-tensorflow2
+	url = git@github.com:cafrii/neowizard.git
