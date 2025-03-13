@@ -4,3 +4,6 @@
 [submodule "neo-tensorflow2"]
 	path = neo-tensorflow2
 	url = git@github.com:cafrii/neowizard.git
+[submodule "tf-guide"]
+	path = tf-guide
+	url = git@github.com:cafrii/tensorflow_guide.git
