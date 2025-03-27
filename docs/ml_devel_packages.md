@@ -14,6 +14,9 @@ pip install tensorflow-macos tensorflow-metal
 ## ipykernel
 conda install ipykernel
 
+// for ml_macos: <br>
+pip install ipykernel
+
 ## google
 pip install google-colab
 <br>-> 실패
@@ -28,3 +31,7 @@ matplotlib       3.9.4   py39hdf13c20_0   conda-forge
 matplotlib-base  3.9.4   py39h7251d6c_0   conda-forge
 ```
 matplotlib-inline 는 원래 설치되어 있었음.
+
+
+// for ml_macos: <br>
+pip install matplotlib
