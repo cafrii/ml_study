@@ -51,7 +51,7 @@ Miniforge 를 선택해야 하는 또 다른 중요한 이유: <br>
 ```
 
 아래와 같이 커스텀 경로를 사용할 수도 있다고 함. 이 방법을 사용하면 동일한 이름의 가상 환경을 여럿 만들 수도 있을 것 같음.
-```
+```bash
 conda create -p /path/to/env python=<version>
 ```
 
@@ -74,14 +74,14 @@ conda create -p /path/to/env python=<version>
 ## conda 패키지와 pip 패키지 충돌
 
 conda 가상환경에서도 pip 패키지 설치가 가능하다. 다음과 같이 pip 을 먼저 설치하면 된다.
-```
+```bash
 conda install pip
 pip install <pip_package>
 ```
 
 하지만, 동일 가상환경 내에서 conda 패키지와 pip 패키지를 둘 다 설치 할 경우 충돌 문제가 발생할 수 있다.
 
-```
+```bash
 conda install numpy  # conda 버전 numpy 설치
 pip install numpy  # pip 버전 numpy 설치
 ```

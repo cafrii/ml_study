@@ -9,7 +9,7 @@
 하지만 일단 가상환경이 생성된 이후에 python 버전을 업그레이드 하는 것은 여러모로 추천되지 않으며, 새롭게 가상환경을 생성하는 것이 권장된다. 그래서 아예 처음부터 가상환경 이름에 파이썬 버전 정보를 포함하도록 한다.
 
 아래 예시는 python 3.9 를 사용하는 `ml_39` 이라는 이름의 가상환경을 생성하고 활성화 하고 있다.
-```
+```bash
 conda create -n ml_39 python=3.9
 
 conda env list
@@ -53,7 +53,7 @@ tensorflow-macos 는 CPU 전용, tensorflow-metal 은 GPU 가속 지원 버전�
 pip 이 필요하므로 pip 을 설치해야 한다.
 conda 채널의 pip 버전이 낮을 수 있으니 pip 을 업그레이드 한다. (하지만 확인 결과 최신 miniforge3 설치에 포함된 base 가상환경의 pip 버전은 충분히 높아서 따로 업그레이드가 필요하진 않았다.)
 
-```
+```bash
 # 버전 확인
 pip --version
 pip 25.0.1 from ...miniforge3/envs/ml/lib/python3.9/site-packages/pip (python 3.9)
@@ -65,7 +65,7 @@ python -m pip install --upgrade pip
 ### 패키지 설치
 
 앞서 설명한 대로 텐서플로 패키지를 설치한다.
-```
+```bash
 conda activate ml_39
 (ml_39)
 conda install tensorflow

@@ -8,7 +8,7 @@
 // for ml_39: <br>
 conda install tensorflow
 
-// for ml_macos: <br>
+// for ml_macos, ml_torch: <br>
 pip install tensorflow-macos tensorflow-metal
 
 ## ipykernel
@@ -22,6 +22,7 @@ pip install google-colab
 <br>-> 실패
 
 ## matplotlib
+// for ml_39
 conda install matplotlib
 <br> -> 일부 패키지들은 다운그레이드 됨.
 2025/3/13
@@ -32,6 +33,6 @@ matplotlib-base  3.9.4   py39h7251d6c_0   conda-forge
 ```
 matplotlib-inline 는 원래 설치되어 있었음.
 
-
-// for ml_macos: <br>
+// for ml_macos, ml_torch: <br>
 pip install matplotlib
+
