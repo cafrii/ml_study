@@ -75,10 +75,17 @@ git submodule add git@github.com:cafrii/neowizard.git neo-tensorflow2
 # git submodule absorbgitdirs # 굳이 하진 않음.
 ```
 
-2025/3/13, 추가
+#### 2025/3/13, 추가
 
 머신러닝 강의 이것도 일부는 들을 필요가 있어 보임. 그래서 이 폴더도 받음.
-
-```
+```bash
 git sparse-checkout add MachineLearning
+```
+
+#### 2025/3/29 추가
+
+PyTorch 도 받음.
+```bash
+cd neo-tensorflow2
+git sparse-checkout add PyTorch
 ```
