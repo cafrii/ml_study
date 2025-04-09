@@ -89,3 +89,14 @@ PyTorch 도 받음.
 cd neo-tensorflow2
 git sparse-checkout add PyTorch
 ```
+
+#### 2025/4/9 추가
+- fast.ai 의 course22 노트북을 로컬에서 동작시켜 보기 위해, github site 에서 원본 리포를 fork.
+  - fork 할 때 master 브랜치만 fork 했음.
+  - fork 된 repo: fastai-course22.git
+- ml_stury 리포의 서브모듈로 추가
+  - 용량은 약 31MB
+
+```
+git submodule add git@github.com:cafrii/fastai-course22.git fast.ai/course22
+```

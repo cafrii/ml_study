@@ -7,3 +7,6 @@
 [submodule "tf-guide"]
 	path = tf-guide
 	url = git@github.com:cafrii/tensorflow_guide.git
+[submodule "fast.ai/course22"]
+	path = fast.ai/course22
+	url = git@github.com:cafrii/fastai-course22.git
