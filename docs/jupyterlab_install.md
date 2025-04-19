@@ -40,3 +40,12 @@ conda install jupyterlab
 jupyterlab
 ```
 
+### notebook 을 colab 페이지에서 접속하도록 허용
+```
+# 주의: 현재 실행 폴더 위치 선택
+
+jupyter notebook \
+  --NotebookApp.allow_origin='https://colab.research.google.com' \
+  --port=8888 \
+  --NotebookApp.port_retries=0
+```

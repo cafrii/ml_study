@@ -36,3 +36,6 @@ matplotlib-inline 는 원래 설치되어 있었음.
 // for ml_macos, ml_torch: <br>
 pip install matplotlib
 
+
+## ipywidgets
+pip install ipywidgets
