@@ -3,3 +3,4 @@ docs/_draft/
 .vscode/
 _work/
 .env
+_venv/
