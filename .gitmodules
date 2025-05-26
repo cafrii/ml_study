@@ -10,3 +10,6 @@
 [submodule "fast.ai/course22"]
 	path = fast.ai/course22
 	url = git@github.com:cafrii/fastai-course22.git
+[submodule "fast.ai/course22p2"]
+	path = fast.ai/course22p2
+	url = git@github.com:cafrii/fastai_course22p2.git

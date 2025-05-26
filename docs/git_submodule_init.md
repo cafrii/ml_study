@@ -100,3 +100,12 @@ git sparse-checkout add PyTorch
 ```
 git submodule add git@github.com:cafrii/fastai-course22.git fast.ai/course22
 ```
+
+#### 2025/5/26 추가, fastai_course22p2
+- fast.ai 의 course22p2 fork
+- ml_study 리포의 서브모듈로 추가
+  - 용량: 약 40MB
+```
+git submodule add git@github.com:cafrii/fastai_course22p2.git fast.ai/course22p2
+```
+
