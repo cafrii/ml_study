@@ -109,3 +109,8 @@ git submodule add git@github.com:cafrii/fastai-course22.git fast.ai/course22
 git submodule add git@github.com:cafrii/fastai_course22p2.git fast.ai/course22p2
 ```
 
+#### 2025/6/5 추가, python_study
+
+```
+git submodule add git@github.com:cafrii/python_study.git python
+```

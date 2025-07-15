@@ -91,4 +91,20 @@ conda install ipykernel
 > 다음 명령어를 실행하여 Python 환경에 'ipykernel'을(를) 설치합니다.
 >  명령: 'conda install -n ml_torch ipykernel --update-deps --force-reinstall'
 
+
+
+### 가상환경 제거
+- 재설치 등을 위해 현재 가상환경을 삭제하는 방법:
+- `conda remove`는 패키지 제거 목적으로 사용되지만, 모든 패키지를 삭제한 후 환경 자체를 삭제하는데에도 사용될 수 있다. `--all` 옵션을 지정하면 환경 자체를 제거한다.
+```bash
+conda remove -n ml_torch --all
+```
+- 모든 패키지를 다 삭제하지만 가상 환경은 그대로 유지
+  - 주의: pip 패키지까지 제거되므로, pip은 conda로 설치 필요하다.
+```
+conda remove -n ml_torch --all --keep-env
+conda activate ml_torch
+conda install pip
+```
+
 끝
