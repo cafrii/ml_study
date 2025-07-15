@@ -1,6 +1,11 @@
 
 
+
+
 ## URLs
+
+- 저자가 직접 관리하는 github repo
+  - https://github.com/phdshinai/ANN_DL101
 
 - ann: 인공신경망 기초
   - https://www.youtube.com/playlist?list=PLfGJDDf2OqlSAL9kE4FvT_rG4DH_8S4AQ
