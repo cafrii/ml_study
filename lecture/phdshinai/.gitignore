@@ -1,1 +1,9 @@
 data/
+.venv/
+build/
+dist/
+*.whl
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
